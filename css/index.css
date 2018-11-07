@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-.container-fluid {
+.landing-page-container {
   width: 100%;
   background-image: url("../img/micro-cover.jpg");
   background-size: auto;
@@ -103,5 +103,82 @@
   border-bottom: 2px solid white;
 }
 .search button .fa-search {
+  color: white;
+}
+.header-bar {
+  background-color: #8d3532;
+  box-shadow: 1px 3px 5px;
+  height: 100px;
+}
+.header-bar .header-container {
+  max-width: 1000px;
+  width: 85%;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-bar .logo {
+  width: 50px;
+  height: 50px;
+}
+.header-bar .nav-container {
+  width: 22%;
+  display: flex;
+  justify-content: space-around;
+}
+.header-bar .nav-container .create-store {
+  width: 100px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 40px;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.header-bar .nav-container .account {
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: url("../img/account.png");
+  cursor: pointer;
+}
+.header-bar .nav-container .contact {
+  width: 25px;
+  height: 25px;
+  background-image: url("../img/contact.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  cursor: pointer;
+}
+.header-bar .search-bar {
+  width: 35%;
+  display: flex;
+  align-items: center;
+}
+.header-bar .search-bar input {
+  width: 100%;
+  background: 0 0;
+  border: none;
+  color: white;
+  outline: none;
+  border-bottom: 2px solid white;
+  font-size: 18px;
+}
+.header-bar .search-bar input::placeholder {
+  color: white;
+}
+.header-bar .search-bar button {
+  width: 30px;
+  height: 31px;
+  background: 0;
+  border: none;
+  border-bottom: 2px solid white;
+}
+.header-bar .search-bar button .fa-search {
   color: white;
 }

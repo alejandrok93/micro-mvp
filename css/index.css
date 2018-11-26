@@ -3,10 +3,10 @@
 }
 .landing-page-container {
   width: 100%;
-  background-image: url("../img/micro-cover.jpg");
-  background-size: auto;
+  background-image: url('../img/micro-black-cover.png');
+  background-size: 100%;
   background-repeat: no-repeat;
-  border: 1px solid black;
+  border: 1px solid white;
 }
 .header {
   max-width: 1000px;
@@ -40,13 +40,13 @@
   height: 25px;
   background-repeat: no-repeat;
   background-size: auto;
-  background-image: url("../img/account.png");
+  background-image: url('../img/account.png');
   cursor: pointer;
 }
 .header .nav-container .contact {
   width: 25px;
   height: 25px;
-  background-image: url("../img/contact.png");
+  background-image: url('../img/contact.png');
   background-repeat: no-repeat;
   background-size: auto;
   cursor: pointer;
@@ -56,17 +56,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 95px 0;
 }
 .main-content .content-container {
   width: 500px;
-  height: 500px;
-  margin-top: 100px;
+  margin-top: 25px;
   align-self: center;
 }
 .main-content .content-container .main-text .micro-logo {
   width: 80%;
   height: 75px;
-  background-image: url("../img/micro-logo.png");
+  background-image: url('../img/micro-logo.png');
   background-repeat: no-repeat;
   background-size: 300px 55px;
   margin: 0 auto;
@@ -104,6 +104,17 @@
 }
 .search button .fa-search {
   color: white;
+}
+.store-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.store-container .access-store {
+  color: white;
+}
+.store-container .access-store a {
+  color: white;
+  text-decoration: underline;
 }
 .header-bar {
   background-color: #8d3532;
